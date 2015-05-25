@@ -1,0 +1,56 @@
+{
+  "name": "marty-test-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Examples for testing Marty",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/martyjs/marty-test-examples.git"
+  },
+  "keywords": [
+    "marty",
+    "react",
+    "flux"
+  ],
+  "dependencies": {
+    "bulk-require": "^0.2.1",
+    "lodash": "^3.9.2",
+    "react": "^0.13.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.1",
+    "bulkify": "^1.1.1",
+    "chai": "^2.3.0",
+    "chai-as-promised": "^5.0.0",
+    "karma": "^0.12.24",
+    "karma-browserify": "^4.1.2",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-cli": "0.0.4",
+    "karma-mocha": "^0.1.9",
+    "karma-spec-reporter": "0.0.19",
+    "mocha": "^2.2.5",
+    "react-test-tree": "^0.1.6",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "author": "James Hollingworth",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/martyjs/marty-test-examples/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/martyjs/marty-test-examples/issues"
+  },
+  "homepage": "https://martyjs.org",
+  "browserify": {
+    "transform": [
+      "babelify",
+      "bulkify"
+    ]
+  }
+}
